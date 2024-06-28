@@ -1,0 +1,22 @@
+.code{
+  display: flex;
+}
+
+
+.left-pane{
+  width: 50%;
+
+  border: 1px solid #eee;
+}
+
+.right-pane{
+  width: 50%
+}
+
+.btn{
+margin-left: 48.3%;
+margin-top: 10px;
+width: 100px;
+border-radius: 25%;
+background-color: rgb(36, 125, 203);
+}
