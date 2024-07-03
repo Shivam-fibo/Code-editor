@@ -11,6 +11,7 @@
       indentUnit: 4,
       matchBrackets: true
     });
+    editor.setValue("# write your code here"); 
 
     async function main() {
       let pyodide = await loadPyodide({ indexURL: "https://cdn.jsdelivr.net/pyodide/v0.18.1/full/" });

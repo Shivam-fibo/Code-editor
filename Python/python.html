@@ -8,26 +8,20 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/mode/python/python.min.js"></script>
   <script src="https://cdn.jsdelivr.net/pyodide/v0.18.1/full/pyodide.js"></script>
-    <link rel="stylesheet" href="python.css">
+  <link rel="stylesheet" href="python.css">
 </head>
 <body>
 
-    <div class="container">
-      <div class="code">
-        <div class="left-pane">
-          <textarea id="code" name="code"></textarea>
-        </div>
-         
-      
-        <div class="right-pane">
-          <textarea id="output" name="output" cols="59" rows="19"></textarea>
-        </div>
-      </div>
+  <div class="container">
+    <div class="pane left-pane">
+      <textarea id="code" name="code"></textarea>
     </div>
-      <button type="button" class="btn" onclick="evaluatePython()">
-        <h5>Run</h5>
-      </button>
-   
+    <div class="pane right-pane">
+      <textarea id="output" name="output" readonly></textarea>
+    </div>
+  </div>
+  <button type="button" class="btn" onclick="evaluatePython()">Run</button>
+
   <script src="python.js"></script>
 </body>
 </html>
