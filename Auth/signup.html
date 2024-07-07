@@ -3,25 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <link rel="stylesheet" href="./Auth/styles.css">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <h2>Login</h2>
+    <h2>Signup</h2>
     <div class="container">
-        
-        <form id="loginForm">
+
+        <form id="signupForm">
             <label for="username">Username:</label>
             <input type="text" id="username" required>
             <label for="password">Password:</label>
             <input type="password" id="password" required>
-            <button type="submit">Login</button>
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" required>
+            <button type="submit">Sign Up</button>
         </form>
     </div>
-
-        <p>Don't have an account? <a href="./Auth/signup.html">Sign up here</a></p>
-  
-        <script src="./Auth/login.js"></script>
+    <p>Already have an account? <a href="../index.html">Login here</a></p>
+    <script src="signup.js"></script>
 </body>
 </html>
